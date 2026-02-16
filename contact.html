@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | StahlBox</title>
+  <link rel="stylesheet" href="index_style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+  <div class="logo">STAHLBOX</div>
+  <div class="menu-toggle" id="menuToggle">☰</div>
+  <div class="nav-links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="features.html">Features</a>
+    <a href="UseCases.html">Use Cases</a>
+    <a href="About.html">About</a>
+    <a href="contact.html" class="active">Contact</a>
+  </div>
+</nav>
+
+<!-- ================= PAGE HEADER ================= -->
+<section class="subheading">
+  <h2>Get In Touch</h2>
+  <p>We’d love to hear from you. Send us a message.</p>
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+<section class="features">
+  <div class="feature-grid">
+
+    <!-- CONTACT INFORMATION -->
+    <div class="feature-card">
+      <span>📍</span>
+      <h3>Contact Information</h3>
+
+      <p>
+        <strong>Email</strong><br>
+        info@stahlbox.in
+      </p>
+
+      <p>
+        <strong>Phone</strong><br>
+        +91 9881198517
+      </p>
+
+      <p>
+        <strong>Office Address</strong><br>
+        Sr No. 28/9, Dhayari-Katraj Road, 
+        <br>Near Pari Chowk Dhayari, Pune-411041
+      </p>
+
+      <p>
+        <strong>Business Hours</strong><br>
+        Fri – Wed.<br>
+        09:00 AM – 5:30 PM
+      </p>
+    </div>
+
+    <!-- CONTACT FORM -->
+    <div class="feature-card">
+      <span>✉️</span>
+      <h3>Send Us a Message</h3>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- Web3Forms -->
+        <input type="hidden" name="access_key" value="a72256de-d955-4142-a20d-ee3633bb1016">
+        <input type="hidden" name="redirect" value="success.html">
+
+        <input type="text" name="name" placeholder="Your Name" required
+               style="width:100%; padding:12px; margin-bottom:12px;">
+
+        <input type="tel" name="phone" placeholder="Phone Number" required
+               style="width:100%; padding:12px; margin-bottom:12px;">
+
+        <input type="email" name="email" placeholder="Email Address" required
+               style="width:100%; padding:12px; margin-bottom:12px;">
+
+        <textarea name="message" placeholder="Your Message" required
+                  style="width:100%; padding:12px; margin-bottom:16px; min-height:120px;"></textarea>
+
+        <button type="submit" class="btn-primary" style="width:100%;">
+          SEND MESSAGE
+        </button>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>📧 info@stahlbox.in | 📞 9881198517</p>
+  <p>© 2025 StahlBox. All rights reserved.</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
